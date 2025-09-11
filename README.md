@@ -22,4 +22,4 @@ Practice basic arithmetic operations using predefined values.
 
 **How to Run:**
 ```bash
-python3 basic_operations.py
+python basic_operations.py
