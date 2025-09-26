@@ -9,12 +9,12 @@ def display_current_datetime():
 
 def calculate_future_date():
     try:
-        days = int(input("Enter number of days to add to the current date: "))
+        days = int(input("Enter the number of days to add to the current date: "))  # Required exact prompt
         future_date = datetime.now() + timedelta(days=days)
         formatted_future = future_date.strftime("%Y-%m-%d")
         print(f"Future Date after {days} days: {formatted_future}")
     except ValueError:
-        print("Please enter a valid integer for days.")
+        print("Invalid input. Please enter a numeric value.")
 
 def main():
     print("Date and Time Explorer")
