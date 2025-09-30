@@ -9,7 +9,7 @@ def safe_divide(numerator, denominator):
         
         return num/den
     except ZeroDivisionError:
-        print("You can't divide by zero!")
+        print("Error: Cannot divide by zero.")
         return None
     except ValueError:
         print("Error: Please enter a numeric value")
