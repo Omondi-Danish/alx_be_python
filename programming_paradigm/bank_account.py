@@ -7,7 +7,6 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.account_balance += amount
-            print(f"${amount} deposited successfully.")
         else:
             print("Please deposit some amount to deposit.")
         
